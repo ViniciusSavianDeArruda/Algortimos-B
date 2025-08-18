@@ -95,8 +95,6 @@ void main(void) {
 }*/
 
 
-
-
 //Enumeração (enum) é um tipo de dado definido pelo usuário que consiste em um conjunto de constantes nomeadas, chamadas enumeradores.
 //Cada enumerador é associado a um valor inteiro, começando do zero por padrão, mas pode ser atribuído um valor específico a qualquer enumerador.
 //Enumerações são úteis para representar um conjunto fixo de valores relacionados, melhorando a legibilidade e a manutenção do código.
