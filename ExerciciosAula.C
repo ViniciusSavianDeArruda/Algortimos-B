@@ -6,7 +6,7 @@ funcionário e calcular:
 ● Utilize funções para implementar o algoritmo e considere as
 seguintes tabelas do INSS e do IRPF:*/
 
-#include <stdio.h>
+/*#include <stdio.h>
 
 float INSS(float s){
     if (s <= 1302){
@@ -60,9 +60,8 @@ int main(){
     printf("Salario em dolar = U$ %.2f\n", salarioDolar);
 
     return 0;
-}
+}*/
 
-/*
 
 
 //EXEMPLO 4
@@ -91,6 +90,7 @@ void mostrarPares(){
         }
     }
 }
+
 
 
 int main(){
