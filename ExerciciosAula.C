@@ -111,7 +111,7 @@ int main(){
 
 
 /*EXEMPLO 5
-● Ler um número inteiro e usar uma função que retorna 0, se o
+Ler um número inteiro e usar uma função que retorna 0, se o
 número é par, ou 1, se o número é impar.
 */
 

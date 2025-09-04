@@ -75,7 +75,7 @@ chamamos de variável global.
 //podendo ser acessada/alterada em qualquer função. 
 
 
-#include <stdio.h>
+/*#include <stdio.h>
 
 int vetor[10]; // Variável global
 
@@ -104,7 +104,4 @@ int main(){
 
     return 0;
 
-
-}
-
-
+}*/
