@@ -95,7 +95,7 @@ int main(){
 
 
 //1. Calcular a soma de 2 vetores de ordem 10.
-#include <stdio.h>
+/*#include <stdio.h>
 
 int main(){ 
     int vetorA[10], vetorB[10], vetorSoma[10];
@@ -127,5 +127,5 @@ int main(){
 	}
 	
 	return 0;
-}
+}*/
 
