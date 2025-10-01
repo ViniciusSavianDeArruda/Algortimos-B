@@ -2,10 +2,9 @@
 #include <stdio.h>
 
 void palavraVertifical(char *p){
-	int i;
 	
-	for(i = 0; p[i] !='\0'; i++){
-		printf("%c\n",p[i]);
+	for(  ; *p !='\0'; p++){
+		printf("%c\n",*p);
 	}
 }
 
@@ -13,7 +12,7 @@ int main(){
 	char palavra[30];
 
 	printf("Digite uma palavra:");
-	scanf("%s", palavra);
+	scanf("%29s", palavra);
 	
 	palavraVertifical(palavra);
 	
