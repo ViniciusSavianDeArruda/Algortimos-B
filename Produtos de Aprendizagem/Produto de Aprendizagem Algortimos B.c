@@ -1,10 +1,6 @@
 //TRABALHO SOBRE ALGORTIMOS B 
 // Nome: Vinicius Arruda, Samuel e Gabreil Sacool
 
-
-// TRABALHO SOBRE ALGORITMOS B
-// Nome: Vinicius Arruda, Samuel e Gabriel Saccol
-
 #include <stdio.h>
 #include <string.h>
 
@@ -30,11 +26,11 @@ struct Medicamento {
     struct UltimaVenda ultimaVenda;
 };
 
-// Variáveis globais
+// Variï¿½veis globais
 struct Medicamento farmacia[100];
 int contador = 0;
 
-// Função para cadastrar medicamentos
+// Funï¿½ï¿½o para cadastrar medicamentos
 void cadastrarMedicamento() {
     char continuar = 'S';
     while (continuar == 'S' || continuar == 's') {
@@ -66,7 +62,7 @@ void cadastrarMedicamento() {
         printf("Preco de custo (R$): ");
         scanf("%f", &farmacia[contador].precoCusto);
 
-        // Inicializa última venda
+        // Inicializa ï¿½ltima venda
         farmacia[contador].ultimaVenda.dia = 0;
         farmacia[contador].ultimaVenda.mes = 0;
         farmacia[contador].ultimaVenda.ano = 0;
@@ -81,7 +77,7 @@ void cadastrarMedicamento() {
     }
 }
 
-// Função para registrar venda
+// Funï¿½ï¿½o para registrar venda
 void registrarVenda() {
     if (contador == 0) {
         printf("\nNenhum medicamento cadastrado.\n");
@@ -104,7 +100,7 @@ void registrarVenda() {
         }
     }
 
-    // Se nao encontrou pelo nome, tenta pelo código
+    // Se nao encontrou pelo nome, tenta pelo cï¿½digo
     if (encontrado == -1) {
         sscanf(busca, "%d", &codigoBusca);
         for (i = 0; i < contador; i++) {
@@ -142,7 +138,7 @@ void registrarVenda() {
     printf("\nVenda registrada com sucesso!\n");
 }
 
-// Função para visualizar venda
+// Funï¿½ï¿½o para visualizar venda
 void visualizarVenda() {
     if (contador == 0) {
         printf("\nNenhum medicamento cadastrado.\n");
@@ -196,7 +192,7 @@ void visualizarVenda() {
     printf("Valor total pago: R$ %.2f\n", m.ultimaVenda.valorTotal);
 }
 
-// Função para listar todos os medicamentos
+// Funï¿½ï¿½o para listar todos os medicamentos
 void listarMedicamentos() {
     if (contador == 0) {
         printf("\nNenhum medicamento cadastrado.\n");
@@ -220,7 +216,7 @@ void listarMedicamentos() {
     }
 }
 
-// Função para informações de vendas
+// Funï¿½ï¿½o para informaï¿½ï¿½es de vendas
 void informacoesVendas() {
     if (contador == 0) {
         printf("\nNenhum medicamento cadastrado.\n");
